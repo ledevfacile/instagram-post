@@ -1,0 +1,98 @@
+/* src/Post.css */
+.post {
+    width: 600px;
+    margin: 0 auto; /* Centre horizontalement sans espace au-dessus ou en dessous */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+
+  .post-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .post-footer {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+  }
+
+  .profile-pic {
+    border-radius: 50%;
+  }
+  
+  .profile-info {
+    margin-left: 10px;
+  }
+  
+  .profile-name {
+    font-weight: bold;
+  }
+  
+  .profile-username {
+    color: #888;
+    margin-left: 5px;
+  }
+  
+  .post-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .post-actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+  }
+  
+  .icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .post-comments {
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .comment-text {
+    margin-bottom: 5px;
+    font-size: 12px;
+  }
+  
+  .comment-author {
+    font-weight: bold;
+    font-size: 12px;
+  }
+  
+  .comment-reply {
+    margin-left: 32px;
+  }
+  
+  .comment-input {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .comment-button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+
+ 
